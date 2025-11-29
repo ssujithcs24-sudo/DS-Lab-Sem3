@@ -1,1 +1,5 @@
 /.dist
+*.exe
+*.o
+*.obj
+*.out
