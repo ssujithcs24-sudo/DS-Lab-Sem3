@@ -22,6 +22,7 @@ void enqueue(int queue[], int ele)
         queue[rear] = ele;
     }
 }
+
 int dequeue(int queue[])
 {
     int item;
@@ -43,6 +44,7 @@ int dequeue(int queue[])
         return item;
     }
 }
+
 void display(int queue[])
 {
     int i;
@@ -55,6 +57,7 @@ void display(int queue[])
         printf("%d ", queue[i]);
     printf("\n");
 }
+
 int main()
 {
     int queue[5], choice, ele;
